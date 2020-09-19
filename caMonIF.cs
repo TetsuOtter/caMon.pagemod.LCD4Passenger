@@ -4,7 +4,7 @@ using System.Text;
 
 namespace caMon.pagemod.LCD4Passenger
 {
-	public class caMonIF
+	public class caMonIF : caMon.IPages
 	{
 	}
 }
