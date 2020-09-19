@@ -14,7 +14,7 @@ namespace caMon.pagemod.LCD4Passenger
 
 		public void Dispose()
 		{
-			throw new NotImplementedException();
+			//throw new NotImplementedException();
 		}
 	}
 }
