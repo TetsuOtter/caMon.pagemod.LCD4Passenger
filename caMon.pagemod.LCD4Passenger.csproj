@@ -5,4 +5,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="caMon.IPages" Version="1.0.0.1" />
+  </ItemGroup>
+
 </Project>
