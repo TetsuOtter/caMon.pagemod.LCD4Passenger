@@ -9,6 +9,6 @@
       Title="FrontPage">
 
     <Grid>
-        
+        <Label Content="Hello, World!"/>
     </Grid>
 </Page>
