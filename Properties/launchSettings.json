@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "caMon.pagemod.LCD4Passenger": {
+      "commandName": "Executable",
+      "executablePath": "$(ProjectDir)\\bin\\caMon.exe",
+      "commandLineArgs": "$(TargetFileName)"
+    }
+  }
+}
