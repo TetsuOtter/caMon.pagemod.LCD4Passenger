@@ -52,11 +52,11 @@
 
 	public class PanelInfo : ReadOnlyPanelInfo
 	{
-		public new string UniqueName { get; set; }
-		public new int CarNumber { get; set; }
-		public new int DoorNumberInThisCar { get; set; }
-		public new int PanelHeight { get; set; }
-		public new int PanelWidth { get; set; }
-		public new IPanelInfo.Direction DirectionToSee { get; set; }
+		public new string UniqueName { get => base.UniqueName; set => base.UniqueName = value; }
+		public new int CarNumber { get => base.CarNumber; set => base.CarNumber = value; }
+		public new int DoorNumberInThisCar { get => base.DoorNumberInThisCar; set => base.DoorNumberInThisCar = value; }
+		public new int PanelHeight { get => base.PanelHeight; set => base.PanelHeight = value; }
+		public new int PanelWidth { get => base.PanelWidth; set => base.PanelWidth = value; }
+		public new IPanelInfo.Direction DirectionToSee { get => base.DirectionToSee; set => base.DirectionToSee = value; }
 	}
 }
