@@ -1,0 +1,14 @@
+﻿<Grid x:Class="caMon.pagemod.LCD4Passenger.InfoDisp.UpperArea"
+			xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+			xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+			xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+			xmlns:local="clr-namespace:caMon.pagemod.LCD4Passenger.InfoDisp"
+			mc:Ignorable="d" 
+			Background="Bisque">
+
+	<Label Content="UpperArea" FontSize="32"
+				 Margin="0"
+							 Foreground="White"
+							 HorizontalAlignment="Right" VerticalAlignment="Center"/>
+</Grid>
